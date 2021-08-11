@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/corners"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:layout_weight="0.04"
+        android:paddingTop="3dp"
+        android:singleLine="true"
+        android:text="Large Text"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/line"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/line" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/titleTextView"
+        android:layout_marginBottom="15dp"
+        android:background="#fff"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/macAddress"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/titleTextView"
+        android:layout_alignEnd="@+id/titleTextView"
+        android:layout_alignRight="@+id/titleTextView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:text="MAC Address"
+        android:textColor="#fff"
+        android:textOff="@string/button_disconnect"
+        android:textOn="@string/button_connect"
+        app:layout_constraintBottom_toBottomOf="@+id/titleTextView"
+        app:layout_constraintStart_toStartOf="@+id/titleTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="696dp"
+        android:text="device list"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/macAddress"
+        app:layout_constraintStart_toStartOf="@+id/macAddress"
+        app:layout_constraintTop_toBottomOf="@+id/line" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BlueSnoop</string>
+    <string name="button_connect">Connect</string>
+    <string name="button_disconnect">Disconnect</string>
+    <string name="title_devices">Devices</string>
+    <string name="scanNow">Scan Now</string>
+    <string name="scanInterval">Scan Interval</string>
+    <string name="defaultScanTime">15 Mins</string>
+    <string name="scan">Scan</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="title_activity_timeline">Timeline</string>
+</resources>
+
+

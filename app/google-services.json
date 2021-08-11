@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "645759843996",
+    "firebase_url": "https://bluesnoopcs2013.firebaseio.com",
+    "project_id": "bluesnoopcs2013",
+    "storage_bucket": "bluesnoopcs2013.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645759843996:android:e7d2493662ebb54b",
+        "android_client_info": {
+          "package_name": "com.example.bluesnoop_ver1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645759843996-fnit6tq12ltt04n83v5qpqjld3k1peur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bluesnoop_ver1",
+            "certificate_hash": "44f874cb2fe1ab7674bf75dd4bfe12bc482012f3"
+          }
+        },
+        {
+          "client_id": "645759843996-n4r6kgjmprro9lmm9tsdhcasn6n1qbtd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy_DBIotnfRrsrO3R0C336B0qiwnnW51c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645759843996-n4r6kgjmprro9lmm9tsdhcasn6n1qbtd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
